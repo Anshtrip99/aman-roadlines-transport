@@ -1,0 +1,16 @@
+node_modules
+.git
+.vercel
+.env
+.env.*
+!.env.example
+.playwright-mcp
+dist
+client/dist
+public
+223.jpeg
+details.jpeg
+image.png
+Screenshot 2026-10-18 153640.png
+VEHICLE INFORMAT1ON(3).pdf
+WhatsApp Image 2026-10-18 at 14.51.32.jpeg

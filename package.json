@@ -1,0 +1,23 @@
+{
+  "name": "aman-roadlines-transport-management",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=client",
+    "dev:server": "npm run dev --workspace=server",
+    "dev:all": "concurrently -k -n API,WEB \"npm run dev --workspace=server\" \"npm run dev --workspace=client\"",
+    "build": "npm run build --workspace=client",
+    "start": "npm run start --workspace=server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.5"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

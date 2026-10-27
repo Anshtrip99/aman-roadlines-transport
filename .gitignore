@@ -1,0 +1,19 @@
+﻿node_modules/
+dist/
+.env
+.env.*
+!.env.example
+# Local credentials and private reference material
+/.playwright-mcp/
+/223.jpeg
+/details.jpeg
+/image.png
+/Screenshot 2026-10-18 153640.png
+/VEHICLE INFORMAT1ON(3).pdf
+/WhatsApp Image 2026-10-18 at 14.51.32.jpeg
+
+.vercel/
+/public/
+
+.vercel
+.env*
